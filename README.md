@@ -1,5 +1,9 @@
-Repository to build upd72020x-load for Artix
+I can build package upd72020x-load for Artix
 
 The sources are pulled from here
 
-[link]https://github.com/markusj/upd72020x-load[/link]
+[https://github.com/markusj/upd72020x-load](https://github.com/markusj/upd72020x-load)
+
+| Rev ||
+|-----||
+| 0.1 | First version of package. Build zst only
