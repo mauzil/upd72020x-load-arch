@@ -1,0 +1,13 @@
+Index: upd72020x-load/upd72020x-check-and-init
+===================================================================
+--- upd72020x-load.orig/upd72020x-check-and-init
++++ upd72020x-load/upd72020x-check-and-init
+@@ -9,7 +9,7 @@ if [ -z "$UPD72020X_CMD" ]; then
+     UPD72020X_CMD=./upd72020x-load
+ fi
+ if [ -z "$UPD72020X_FW" ]; then
+-    UPD72020X_FW=K2026.mem
++    UPD72020X_FW=/usr/lib/firmware/renesas_usb_fw.mem
+ fi
+ 
+ # test if loader and firmware can be found
