@@ -2,7 +2,7 @@
 
 
 pkgname="upd72020x-load"
-pkgver="0"
+pkgver="20210814"
 pkgrel="1"
 
 arch=(x86_64)
