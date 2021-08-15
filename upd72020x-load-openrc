@@ -1,0 +1,6 @@
+#!/sbin/openrc-run
+
+start() {
+	/usr/bin/upd72020x-check-and-init
+}
+
